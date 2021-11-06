@@ -1,4 +1,4 @@
-package algorithms;
+package com.bridgelabz.algorithms;
 public class InsertionSort <T extends Comparable<T>>{
     /*
     * PERFORMS INSERTION SORT

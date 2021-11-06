@@ -1,8 +1,9 @@
-package algorithms;
+package com.bridgelabz.algorithms;
 
 public class BubbleSort <T extends Comparable<T>>{
-    /*
+    /**
      * PERFORMS BUBBLE SORT
+     * @param value to get the values to sort
      * */
     private void bubbleSort(T value[]) {
         for(int i=0;i<value.length-1;i++){
