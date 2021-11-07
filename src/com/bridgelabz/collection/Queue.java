@@ -1,4 +1,4 @@
-package com.bridgelabz.algorithms.collection;
+package com.bridgelabz.collection;
 
 public class Queue<T> {
     LinkedList list;
@@ -7,7 +7,7 @@ public class Queue<T> {
     }
 
     public void append(T data) {
-        list.append(data);
+        list.append((Comparable) data);
 
     }
 

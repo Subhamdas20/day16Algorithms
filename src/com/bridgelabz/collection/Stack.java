@@ -1,4 +1,4 @@
-package com.bridgelabz.algorithms.collection;
+package com.bridgelabz.collection;
 
 public class Stack<T> {
     LinkedList list;
@@ -15,7 +15,7 @@ public class Stack<T> {
      * @param data is used to take input
      */
     public void push(T data) {
-        list.push(data);
+        list.push((Comparable) data);
 
     }
 
