@@ -81,43 +81,43 @@ public class LinkedList<T extends Comparable> {
 
 
 
-//    public void insertAtFirst(String data){
-//        Node node = new Node();
-//        node.data = data;
-//        node.next=head;
-//        head = node;
-//    }
-//    public void insertAtAnyLocation(int index , String data){
-//        Node node = new Node();
-//        node.data = data;
-//        node.next=null;
-//        Node n = head;
-//        if(index==0){
-//            insertAtFirst( data);
-//        }
-//        else {
-//            for (int i = 0; i < index - 1; i++) {
-//                n = n.next;
-//            }
-//
-//            node.next = n.next;
-//            n.next = node;
-//        }
-//
-//    }
-//    public void delete(int index){
-//      Node n = head;
-//      if (index==0){
-//          head=head.next;
-//      }
-//      else {
-//          for (int i = 0; i < index - 1; i++) {
-//              n = n.next;
-//          }
-//          Node y = n.next;
-//          n.next = y.next;
-//      }
-//    }
+    public void insertAtFirst(String data){
+        Node node = new Node();
+        node.data = data;
+        node.next=head;
+        head = node;
+    }
+    public void insertAtAnyLocation(int index , String data){
+        Node node = new Node();
+        node.data = data;
+        node.next=null;
+        Node n = head;
+        if(index==0){
+            insertAtFirst( data);
+        }
+        else {
+            for (int i = 0; i < index - 1; i++) {
+                n = n.next;
+            }
+
+            node.next = n.next;
+            n.next = node;
+        }
+
+    }
+    public void delete(int index){
+      Node n = head;
+      if (index==0){
+          head=head.next;
+      }
+      else {
+          for (int i = 0; i < index - 1; i++) {
+              n = n.next;
+          }
+          Node y = n.next;
+          n.next = y.next;
+      }
+    }
     /**
      * to search if element present in list
      * @param data is the input from used
