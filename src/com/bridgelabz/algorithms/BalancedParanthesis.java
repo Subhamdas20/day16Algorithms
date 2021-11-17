@@ -1,6 +1,6 @@
 package com.bridgelabz.algorithms;
 
-import com.bridgelabz.collection.Stack;
+import com.bridgelabz.algorithms.collection.Stack;
 
 public class BalancedParanthesis {
 /**
